@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "displays-list-5-operations"
+version = "0.1.0"
+description = ""
+authors = ["Javoprav <78508571+Javoprav@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "displays_list_5_operations"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
