@@ -55,7 +55,7 @@ def print_last5_operation():
 
 
 def print_operation(numb):
-    """выводит сообщение по индексу"""
+    """выводит форматированное сообщение по индексу"""
     oper = print_last5_operation()
     date = oper[numb]['date']
     thedate = datetime.fromisoformat(date)
